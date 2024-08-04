@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## UserProfile React Component
+This project contains a React.js class component that fetches user data from an API and displays it.
+
+## Features
+Fetches user data: The component retrieves data from the /api/user endpoint.
+Displays user information: Shows the username and age retrieved from the API.
+## Code Explanation
+State Initialization: The initial state is set in the constructor with default values for username and age.
+API Call: The componentDidMount lifecycle method makes a fetch request to retrieve user data.
+Error Handling: The fetch request includes basic error handling, logging errors to the console.
+## Key Files
+UserProfile.js: Contains the UserProfile component.
 
 ## Getting Started
 
